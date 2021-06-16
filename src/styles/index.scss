@@ -1,13 +1,56 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1CbIRavfsK1RjSszbq6AqBXXag/Fondo-de-alta-calidad-de-rbol-de-flores-de-cerezo-de-Ciudad-de-Anime-impresi-n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.cable_semaforo {
+    background-color: rgb(53, 53, 53);
+    width: 12px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.cuerpo_semaforo {
+    width: 200px;
+    height: 340px;
+    background-image: url(https://image.freepik.com/foto-gratis/metal-amarillo-oxidado-pintado-resumen-textura-matal-antecedentes_1421-974.jpg);
+    margin: auto;
+    border-radius: 70px;
+    border-style: inset;
+}
+
+.cuerpo_semaforodentro {
+    width: 186px;
+    height: 310px;
+    background-image: url(https://image.freepik.com/foto-gratis/textura-oxidada-metal-acero-placa-amarilla-fondo_99266-85.jpg);
+    margin: auto;
+    border-radius: 70px;
+    align-items: center;
+    border: 1px solid rgb(240, 255, 32);
+    border-style: inset;
+}
+
+.colores {
+    display: block;
+    margin: auto;
+}
+
+
+.btn {
+   display: block;
+   margin: auto; 
+   width: 90px;
+   height: 90px;
+   border: 1px solid rgb(138, 138, 138);
+   border-style: outset;
+}
+
+.selected {
+    box-shadow: #f8ffcc 0px 0px 60px 30px !important;
+}
+
